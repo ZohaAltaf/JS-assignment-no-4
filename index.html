@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Magic Kids | JS Assignment 04</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-shapes">
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+  </div>
+
+  <main class="container">
+    <header class="header">
+      <div class="badge-pill">Learning Studio</div>
+      <h1>Math <span>Magic</span> for Kids</h1>
+      <p>Explore counting, multiplication tables, even & odd numbers, and quick math!</p>
+    </header>
+
+    <nav class="tabs" aria-label="Math Modes">
+      <button class="tab-btn active" data-mode="forward"> Forward Counting</button>
+      <button class="tab-btn" data-mode="backward"> Backward Counting</button>
+      <button class="tab-btn" data-mode="table"> Times Table</button>
+      <button class="tab-btn" data-mode="evenodd"> Even & Odd</button>
+      <button class="tab-btn" data-mode="calc"> Quick Math</button>
+    </nav>
+
+    <section class="workspace">
+      <div id="controls" class="controls"></div>
+      <div id="statusMsg" class="status-msg"></div>
+      <div id="output" class="output"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
